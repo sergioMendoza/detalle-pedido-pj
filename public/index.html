@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <!-- <link rel="stylesheet" href="../src/css/main.css"> -->
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerbox">
+      <img class="headerbox__image" src="assets/images/logo.png" alt="logo">
+    </div>
+  </header>
+
+  <main class="containerPrincipal detail">
+    <div class="container">
+        <div class="detail__title p-2 mb-2">
+            <div class="row">
+              <div class="col-2">
+                <img class="detail__image" src="https://user-images.githubusercontent.com/32285482/42764450-426034d0-88db-11e8-83c1-30a752f4d596.png"
+                  alt="pizza-icon">
+              </div>
+              <div class="col-10">Detalle de Pedido</div>
+            </div>
+          </div>
+    </div>
+      
+    <section class="container">
+
+      <div class="detail__description">
+        <div>
+          <div class="row">
+            <div class="col-9">
+              <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
+            </div>
+            <div class="col-3 text-right">
+              <button class="btn-delete" id="index" data-id="index">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <p class="mb-0">1 Pizza Grande Americana </p>
+          <p class="mb-0">1 Pizza Grande Pepperoni</p>
+        </div>
+      </div>
+      <div class="detail__description">
+          <div>
+            <div class="row">
+              <div class="col-9">
+                <p class="mb-0 detail__description--title">Promoción La 2da a 1 sol </p>
+              </div>
+              <div class="col-3 text-right">
+                <button class="btn-delete" id="index" data-id="index">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <p class="mb-0">1 Pizza Grande Hawaiana </p>
+            <p class="mb-0">1 Pizza Grande All the meats</p>
+          </div>
+        </div>
+      <div class="container">
+        <p class="detail__delivery">*Costo Delivery : S/ 3.90</p>
+      </div>
+      
+      <div class="detail__total">
+        <span>Total : S/</span>
+        <span id="total">90.80</span>
+      </div>
+    </section>
+  </main>
+  <footer class="confirm">
+    <form id="preferencesForm ">
+  
+      <div class="container">
+          <div class="row">
+              <div class="col-6 p-0">
+                <button class="confirm__button confirm-button--darkred p-2">Agregar m&aacute;s</button>
+              </div>
+              <div class="col-6 p-0">
+                <button type="submit" class="confirm__button text-center p-2" id="config" >Confirmar
+                </button>
+              </div>
+            </div>
+      </div>
+     
+
+    </form>
+  </footer>
+
+  <script src="js/app.min.js"></script>
+  <!-- <script src="../src/js/app.js"></script> -->
+</body>
+
+</html>

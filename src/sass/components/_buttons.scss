@@ -1,0 +1,34 @@
+// buttons
+.confirm {
+  text-align: center;
+
+  .confirm__button {
+    background-color: $green-papa;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .confirm-button--darkred {
+    background-color: $darkred-papa;
+  }
+}
+
+.btn-delete {
+  border: none;
+  background-color: transparent;
+  color: $darkgrey-papa;
+  padding: 0 10px;
+  outline: none;
+
+    &:focus {
+      outline: none;
+    }
+}
